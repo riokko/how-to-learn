@@ -32,7 +32,6 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  align-self: center;
 }
 
 .logo_place_header {
@@ -206,6 +205,11 @@ p {
   right: 48px;
 }
 
+.link_decoration {
+  text-decoration: none;
+  color: black;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -254,31 +258,71 @@ p {
 
 .footer {
   background-color: #1f1f1f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
   min-height: 350px;
 }
 
 .footer__columns {
   width: 90%;
   color: white;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .footer__column_content_copyright {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 711px;
+  min-height: 350px;
+  margin-bottom: 40px;
 }
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
+  margin-top: 60px;
 }
 
 .footer__author {
+  margin-top: 18px;
   margin-bottom: 18px;
+}
+
+.footer__column_content_info {
+  margin-top: 60px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-links:nth-of-type(4) {
+  margin-bottom: 16px;
+}
+
+.footer__column_content_social {
+  margin-top: 60px;
+}
+
+.footer__social-icon {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__social-icon:nth-of-type(4) {
+  margin-bottom: 16px;
+}
+
+.link_decoration_theme_dark {
+  color: white;
 }
