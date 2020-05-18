@@ -61,6 +61,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -216,6 +220,10 @@
   color: black;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -329,6 +337,10 @@
   font-size: 18px;
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__column-link:nth-of-type(4) {
