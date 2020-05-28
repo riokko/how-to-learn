@@ -3,10 +3,12 @@
   font-size: 18px;
   color: white;
   text-decoration: none;
+  transition: opacity 1s ease-out;
 }
 
 .footer__column-link:hover {
   text-decoration: underline;
+  opacity: 50%;
 }
 
 .footer__column-link:nth-of-type(4) {

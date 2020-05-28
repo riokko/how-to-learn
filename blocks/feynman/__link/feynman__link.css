@@ -6,8 +6,10 @@
   right: 48px;
   text-decoration: none;
   color: black;
+  transition: opacity 1s ease-out;
 }
 
 .feynman__link:hover {
   text-decoration: underline;
+  opacity: 50%;
 }
