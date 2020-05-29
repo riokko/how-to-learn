@@ -4,6 +4,7 @@
 
 .feynman {
   height: 790px;
+  padding-top: 80px;
   background: url(./feynman.png) left bottom;
   background-color: #f2f2f2;
   background-repeat: no-repeat;

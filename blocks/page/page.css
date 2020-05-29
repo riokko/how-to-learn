@@ -4,6 +4,8 @@
 @import url("../two-columns/two-columns.css");
 @import url("../techniques/techniques.css");
 @import url("../cards/cards.css");
+@import url("../video/video.css");
+@import url("../oakley/oakley.css");
 @import url("../digits/digits.css");
 @import url("../feynman/feynman.css");
 @import url("../section-subtitle/section-subtitle.css");
@@ -20,5 +22,5 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
