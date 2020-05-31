@@ -1,4 +1,6 @@
 .video__frames {
   display: flex;
   margin-top: 50px;
+  list-style: none;
+  padding: 0;
 }

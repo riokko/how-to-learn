@@ -1,5 +1,5 @@
-.table_theme_dark {
-  margin-bottom: 90px;
+  .table_theme_dark {
+  /* margin-bottom: 90px; <-- не применился, удалила за ненадобностью*/
   position: relative;
   z-index: 1;
 }
