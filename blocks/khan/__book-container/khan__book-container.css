@@ -3,4 +3,5 @@
   height: 620px;
   overflow: hidden;
   display: flex;
+  align-items: flex-start;
 }
